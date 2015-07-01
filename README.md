@@ -13,7 +13,8 @@ If you know that your network has different authentication methods, change those
 
 Write and save the file, then run
 ```
-chown root /etc/NetworkManager/system-connections/[CONNECTION-NAME] && chmod 600 /etc/NetworkManager/system-connections/[CONNECTION-NAME]
+chown root /etc/NetworkManager/system-connections/[CONNECTION-NAME] && \
+chmod 600 /etc/NetworkManager/system-connections/[CONNECTION-NAME]
 ```
 
 Finally you must restart the NetworkManager service with `sudo systemctl restart NetworkManager`. And with that you should have a functioning wifi connection on WPA2-Enterprise!
