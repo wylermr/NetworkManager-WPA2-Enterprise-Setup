@@ -8,7 +8,7 @@ Ever since moving off of ubuntu, network setup has been a pain, so here's a how-
 If you don't have NetworkManager installed, either get it from your package manager, or transfer the source from a computer that has network access and go [here](http://www.linuxfromscratch.org/blfs/view/svn/basicnet/networkmanager.html) for instructions on how to install it.
 
 ## Automatic Setup
-Run `bash setup.sh` and enter the fields prompted.
+Run `./setup.sh` and enter the fields prompted.
 
 ## Manual Setup
 1. Generate a UUID with `uuidgen`
