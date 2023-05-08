@@ -5,7 +5,12 @@ How to set up NetworkManager for use on school and other WPA2-Enterprise Network
 Ever since moving off of ubuntu, network setup has been a pain, so here's a how-to and skeleton for a config file for WPA2 Enterprise Networks. This method has been tested on two different university networks and worked for both.
 
 # How To
-0. If you don't have NetworkManager installed, either get it from your package manager, or transfer the source from a computer that has network access and go [here](http://www.linuxfromscratch.org/blfs/view/svn/basicnet/networkmanager.html) for instructions on how to install it.
+If you don't have NetworkManager installed, either get it from your package manager, or transfer the source from a computer that has network access and go [here](http://www.linuxfromscratch.org/blfs/view/svn/basicnet/networkmanager.html) for instructions on how to install it.
+
+## Automatic Setup
+Run `./setup.sh` and enter the fields prompted.
+
+## Manual Setup
 1. Generate a UUID with `uuidgen`
 2. Copy the base config from this repository into `/etc/NetworkManager/system-connections/[CONNECTION-NAME]` and edit in the connection id with your favorite text editor
 3. Change the following fields:
