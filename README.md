@@ -47,7 +47,7 @@ How to set up NetworkManager for use on school and other WPA2-Enterprise Network
 
 ## How To Option 2
 
-1. Write and save the using 'skeleton' file in this root as base, then run the following commands:
+1. Write and save the  file using 'skeleton' file in this project root as base, then run the following commands:
 
    ```bash
    chown root /etc/NetworkManager/system-connections/[CONNECTION-NAME] && \
